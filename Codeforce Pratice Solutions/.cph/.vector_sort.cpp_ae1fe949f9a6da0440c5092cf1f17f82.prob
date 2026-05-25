@@ -1,0 +1,1 @@
+{"name":"Local: vector_sort","url":"c:\\Users\\USER.DESKTOP-U42ANKP\\Documents\\CodeForces\\vector_sort.cpp","tests":[{"id":1773768876860,"input":"5\n1 6 10 8 4","output":"1 4 6 8 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\USER.DESKTOP-U42ANKP\\Documents\\CodeForces\\vector_sort.cpp","group":"local","local":true}

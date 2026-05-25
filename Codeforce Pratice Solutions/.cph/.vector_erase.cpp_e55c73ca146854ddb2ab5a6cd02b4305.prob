@@ -1,0 +1,1 @@
+{"name":"Local: vector_erase","url":"c:\\Users\\USER.DESKTOP-U42ANKP\\Documents\\CodeForces\\vector_erase.cpp","tests":[{"id":1773769919019,"input":"6\n1 4 6 2 8 9\n2\n2 4","output":"3\n1 8 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\USER.DESKTOP-U42ANKP\\Documents\\CodeForces\\vector_erase.cpp","group":"local","local":true}
