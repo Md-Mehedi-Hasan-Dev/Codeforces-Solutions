@@ -24,22 +24,25 @@ void solve()
 {
     int n; cin >> n;
     vi v(n);
+    vi used(n + 1, 0);
     for(int i = 0; i < n; i++)
     {
         cin >> v[i];
-        freq[v[i]] = true;
+        if(v[i] != -1)
+            used[v[i]] = 1;
     }
-    for(int i = 0, j = n; i < n, j > 0; i++, j--)
-    {
-        if(v[i] == -1 && freq[j] == false)
-            v[i] = j;
-    }
+    vi missing;
+    for(int i = 1; i <= n; i++)
+        if(!used[i])
+            missing.pb(i);
+    sort(rall(missing));
+    int idx = 0;
     for(int i = 0; i < n; i++)
-    {
-        cout << v[i];
-        if(i < n - 1)
-            cout << " ";
-    } 
+        if(v[i] == -1)
+            v[i] = missing[idx++];
+    for(int i = 0; i < n; i++)
+        cout << v[i] << " ";
+    cout << nl; 
 }
 
 int main()
